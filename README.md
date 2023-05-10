@@ -23,15 +23,15 @@ The data set includes credit card transactions made by European cardholders over
 ## Project Workflow
 The process can be summarized in the following five steps:
 
-*Data Understanding:we load the data and examine its features to gain insight into the dataset's structure and distribution. This process helps us identify any missing or erroneous data that may need to be addressed before we can proceed with building a model.
+* Data Understanding:we load the data and examine its features to gain insight into the dataset's structure and distribution. This process helps us identify any missing or erroneous data that may need to be addressed before we can proceed with building a model.
 
-*Exploratory data analytics (EDA): we typically perform univariate and bivariate analyses of the data. We also check the correlation between different variables in the dataset.
+* Exploratory data analytics (EDA): we typically perform univariate and bivariate analyses of the data. We also check the correlation between different variables in the dataset.
 
-*Train/Test Split: Now we are familiar with the train/test split, which we can perform in order to check the performance of our models with unseen data. Here, for validation, we can use the k-fold cross-validation method. We need to choose an appropriate k value so that the minority class is correctly represented in the test folds. After this, we scale the sets separately.
+* Train/Test Split: Now we are familiar with the train/test split, which we can perform in order to check the performance of our models with unseen data. Here, for validation, we can use the k-fold cross-validation method. We need to choose an appropriate k value so that the minority class is correctly represented in the test folds. After this, we scale the sets separately.
 
-*Model-Building: where we select appropriate algorithms and train the model on the prepared dataset. We will then fine-tune the model hyperparameters and predict on both train and test sets.
+* Model-Building: where we select appropriate algorithms and train the model on the prepared dataset. We will then fine-tune the model hyperparameters and predict on both train and test sets.
 
-*Model Evaluation: We need to evaluate the models using appropriate evaluation metrics. Note that since the data is imbalanced it is is more important to identify which are fraudulent transactions accurately than the non-fraudulent. We need to choose an appropriate evaluation metric which reflects this business goal. In this case , we choose the roc_auc score metric.
+* Model Evaluation: We need to evaluate the models using appropriate evaluation metrics. Note that since the data is imbalanced it is is more important to identify which are fraudulent transactions accurately than the non-fraudulent. We need to choose an appropriate evaluation metric which reflects this business goal. In this case , we choose the roc_auc score metric.
 
 
 For more information or collaboration ; ndungek66@gmail.com
